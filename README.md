@@ -130,8 +130,6 @@ Finally, in order to recognize all the elements in a scene, despite of how compl
 
 This project was great! It gave me an awesome overview of how object recognition works! This knowledge can be taken as far as I want to make robots that can interact with their environment.
 
-Thanks for reviewing my project! Any tips on how to make the robot detect the glue in the third scene would be really helpful! :)
-
 Thanks! :)
 
 ![](https://github.com/HumbertoMartinezBarron/RoboND-Perception-Project/blob/master/imgs/terminator.jpg)
