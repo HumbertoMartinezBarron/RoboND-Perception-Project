@@ -44,10 +44,10 @@ This parameter is passed to the method ```set_std_dev_mul_thresh()``` in order t
 Now, I need to segment the table in order to see the objects on the tabletop! Once again, I had to try different values before I got this working! I should mention this task was rather exhausting, given I am running all of this on a Macbook Air which won't allow me to assign more than 3300 MB and 2 cores to the VM! This makes each run painstakingly slow.
 
 However, I was able to discover that the needed parameters in order to successfully filter out the table were the following:
- ```leaf_size = 0.01```
-```filter_axis = 'z' # param or set_filter_field_name()```
-```ax_min = 0.6 # lower bound param for set_filter_limits()```
-```ax_max = 0.8 # upper bound param for set_filter_limits()```
+ -```leaf_size = 0.01```
+-```filter_axis = 'z' # param or set_filter_field_name()```
+-```ax_min = 0.6 # lower bound param for set_filter_limits()```
+-```ax_max = 0.8 # upper bound param for set_filter_limits()```
 
 #### Clustering!
 
